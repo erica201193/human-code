@@ -1,0 +1,30 @@
+# Scansionare un documento su più fogli fronte-retro
+
+-Se lo scanner non è acceso
+    -accendo lo scanner
+-apro il programma di scansione
+-creo una cartella di salvataggio nel percorso prestabilito
+-rinonimo la cartella a mio piacimento
+-prendo i documenti da scansionare
+-conto il numero di documenti
+-sollevo il coperchio dello scanner
+-ripeto l'operazione di scansione fronte/retro per N fogli :
+    -SE il documento è sul lato "FRONTE" :
+        -posiziono correttamente il documento sul pannello dello scanner
+        -chiudo il coperchio
+        -da Pc avvio il programma di scansione aperto in precedenza
+        -completo la procedura di scansione
+        -assegno un nome al documento nella fase di salvataggio
+        -indico nel nome quale lato ho scansionato
+        -SE si tratta del "FRONTALE"
+            -ALLORA digito "nome documento" + "FRONTE"
+    -ALTRIMENTI
+        -posiziono correttamente il documento sul pannello dello scanner
+        -chiudo il coperchio
+        -da Pc avvio il programma di scansione aperto in precedenza
+        -completo la procedura di scansione
+        -assegno un nome al documento nella fase di salvataggio
+        -indico nel nome quale lato ho scansionato
+        -SE si tratta del "RETRO"
+            -ALLORA digito "nome documento" + "RETRO"
+-completo il salvataggio del documento nella cartella creata in precedenza.
