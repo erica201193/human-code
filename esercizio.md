@@ -1,5 +1,4 @@
 # Scansionare un documento su più fogli fronte-retro
-
 -Se lo scanner non è acceso
     -accendo lo scanner
 -apro il programma di scansione
